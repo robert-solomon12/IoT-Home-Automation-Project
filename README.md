@@ -15,11 +15,11 @@ Nodemcu Board
 4 x 5V Relays
 DHT11 sensor
 4 x BC547 transistors
-4 x 1n4007 diode
-4 x 330 ohm resistor
-7805 IC
+1 x Photo resistor
+1 x Lamp
+1 x Motion Sensor
 9v Power Adapter
 DC power socket
-2 pin Green Connectors
+
 Smartphone Device
 
