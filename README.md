@@ -7,7 +7,7 @@ We can also measure the data of various sensors attached on our pcb. So let’s 
 The Project that I'm going to propose is a Home Automation Based on Local MQTT Server using a Raspberry Pi & an ESP8266. I’m also going to be using a NodeMCU as a controller in which I will upload a MQTT client code once its written. Code for this project is uploaded on my GitHub account in due time. For using that code, you need to have the Adafruit MQTT Library and DHT11 library installed on your system.
 
 
-Components Required
+Components Required:
 
 Raspberry Pi 3B board
 SD card
