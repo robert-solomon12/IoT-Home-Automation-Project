@@ -20,6 +20,5 @@ DHT11 sensor
 1 x Motion Sensor
 9v Power Adapter
 DC power socket
-
 Smartphone Device
 
