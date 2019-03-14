@@ -1,24 +1,17 @@
 # IoT Home Automation Project
 
-Story
-Until now there have been many videos roaming around about IoT Smart-Home Devices controlling Appliances around the house and it caught my attention. Therefore I wanted to design my own simulation of a Smart IoT Device in use for Home Automation. There have also been several tutorial videos regarding controlling appliances over internet. And for that Adafruit MQTT server has been a preference as it was easy to use and user friendly also according to some research. But all those things were based on internet. That means we can control appliances only when we have proper internet connection otherwise that wont work at all. So this time, the idea is to come up with Home automation based on Local MQTT server in which we can control appliances without any need of internet. All the appliances will be connected to single network and we can easily control them using our smart phone app.
+Until now there have been many videos roaming around about IoT Smart-Home Devices controlling Appliances around the house and it caught my attention. Therefore I wanted to design my own simulation of a Smart IoT Device in use for Home Automation. There have also been several tutorial videos regarding controlling appliances over internet. And for that Blynk and perhaps an MQTT server has been a preference as it was easy to use and user friendly also according to some research. But all those things were based on internet. That means we can control appliances only when we have proper internet connection otherwise that wont work at all. So this time, the idea is to come up with Home automation based on Local MQTT server in which we can control appliances without any need of internet. All the appliances will be connected to single network and we can easily control them using MY smart phone app.
 
-We can also measure the data of various sensors attached on our pcb. So let’s see how it works and how to make it.
-The Project that I'm going to propose is a Home Automation Based on Local MQTT Server using a Raspberry Pi & an ESP8266. I’m also going to be using a NodeMCU as a controller in which I will upload a MQTT client code once its written. Code for this project is uploaded on my GitHub account in due time. For using that code, you need to have the Adafruit MQTT Library and DHT11 library installed on your system.
+The Project that I'm going to propose is a Home Automation Based Lamp accompanied with a Relay over a Local MQTT Server using a Raspberry Pi & Blynk. I’m also going to be using a sensor I will upload a MQTT client code once its written. Code for this project is uploaded on my GitHub account in due time.
 
 
 Components Required:
 
-Raspberry Pi 3B board
-SD card
-Nodemcu Board
-4 x 5V Relays
-DHT11 sensor
-4 x BC547 transistors
-1 x Photo resistor
-1 x Lamp
-1 x Motion Sensor
-9v Power Adapter
-DC power socket
-Smartphone Device
-
+-Raspberry Pi 3B board
+-SD card
+-1 x 5V Relays
+-1 x Lamp
+-Smartphone Device
+-Jumper Wires
+-Python Software
+-Blynk App
