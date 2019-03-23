@@ -5,7 +5,7 @@ Until now there have been many videos roaming around about IoT Smart-Home Device
 The Project that I'm going to propose is a Home Automation Based Lamp accompanied with a Relay over a Local MQTT Server using a Raspberry Pi & Blynk. I’m also going to be using a sensor I will upload a MQTT client code once its written. Code for this project is uploaded on my GitHub account in due time.
 
 
-Components Required:
+# Components Required:
 
 -Raspberry Pi 3B board
 -SD card
