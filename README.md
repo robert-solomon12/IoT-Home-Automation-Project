@@ -16,4 +16,4 @@ The Project that I'm going to propose is a Home Automation Based Lamp accompanie
 -Python Software
 -Blynk App
 
-Please refer to the following link for the Project Analysis in the HAS Project Analysis Folder to get a clearer context of this Project.
+<b>Please refer to the following link for the Project Analysis in the HAS Project Analysis Folder to get a clearer context of this Project.</b>
