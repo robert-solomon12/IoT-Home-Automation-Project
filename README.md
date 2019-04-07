@@ -15,3 +15,5 @@ The Project that I'm going to propose is a Home Automation Based Lamp accompanie
 -Jumper Wires
 -Python Software
 -Blynk App
+
+Please refer to the following link for the Project Analysis: ![architecture](./HAS Project Analysis/IoT Project Analysis (HOME AUTOMATED LAMP).pdf)
