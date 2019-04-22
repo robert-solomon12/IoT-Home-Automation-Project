@@ -37,7 +37,7 @@ The Motion Sensor code is written in Python and is launched through my node.js u
 # Instructions to set up your Pi with all of the scripts it needs:
 <br>The hard parts are done so if you want to just get running with the application, read the following instructions ahead:</br>
 
-• The first thing you want to do is to download Blynk here from the [Apple Marketplace](https://itunes.apple.com/us/app/blynk-iot-for-arduino-esp32/id808760481?mt=8) if you're using an Apple Device or [Play Store](https://play.google.com/store/apps/details?id=cc.blynk&hl=en) if you're using an Android Device.
+• The first thing you want to do is to download Blynk App here from the [Apple Marketplace](https://itunes.apple.com/us/app/blynk-iot-for-arduino-esp32/id808760481?mt=8) if you're using an Apple Device or [Play Store](https://play.google.com/store/apps/details?id=cc.blynk&hl=en) if you're using an Android Device.
 • Create your Account with Blynk when you click into the Application
 • Create a New Project with the following details:
 
