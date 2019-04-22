@@ -4,7 +4,7 @@ var LAMP = new Gpio(4, 'out'); //use GPIO pin 2, and specify that it is output
 
 var Blynk = require("blynk-library");
 
-var AUTH = '388dee48785e45498fcde4458c72c39a';
+var AUTH = 'INSERT-YOUR-TOKEN-HERE';
 
 var blynk = new Blynk.Blynk(AUTH);
 

@@ -1,0 +1,8 @@
+REQUIRED: 
+220 OHMS
+Any value from 100 ohm to 1.0k
+
+My Resistors:
+1st R: 
+2nd R: 330 ohms
+3rd R: 10k ohms
