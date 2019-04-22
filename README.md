@@ -38,22 +38,22 @@ The Lamp is being controlled using Blynk. Blynk is a fantastic hardware-agnostic
 • Create a New Project with the following details:
   1. Name: "IoT Smart Home" 
   2. Choose Raspberry Pi 3 as the board and the type of network connection you use with the RPi (either Wifi or Ethernet).
-  ![](IMG/Blynk%20Intro%20Diagram.png)
+  
+  <img src="IMG/blynk3.png" width="150">
+  
 • After the project is created, You will see your empty app. We will add controls to it later. In the mean time, retrieve your project Auth Token in your email (check your junk folder if you can't find it).
 • Download/clone this repo 
-![](IMG/Screenshot%20(26).png)
+<img src="IMG/Screenshot%20(26).png" width="100">
 • Next you need to install the Blynk Library on your Raspberry Pi and since we're going to use Javascript to control the Pi, you will need to do the following:
 <br> You should only carry out the following installations if you don't have node.js installed on your Raspberry Pi otherwise skip the following installations </br>
   • Check if Node is already on the pi. If so,you are adviced to remove it and reinstall as follows: 
     <b>1. sudo apt-get purge node nodejs node.js -y </b>
     <b>2. sudo apt-get autoremove </b>
-     
   • Update the package repository and install node:  
     <b>1. curl -sL "https://deb.nodesource.com/setup_6.x" | sudo -E bash - </b>
     <b>2. sudo apt-get install build-essential nodejs -y </b>
     <b>3. sudo apt-get install npm</b>
-
-
+    
 After you've done does steps you should be almost ready to go, just make sure you edit the 'smartDevice.js' script and change the part with 'INSERT-YOUR-TOKEN-HERE' and replace it with your own token that you will get from your email when you already have Blynk installed and setup on your phone.
 
 • Run 'smartDevice.js' which will also run the 'pirTest.py' program from the js program using the child processing module.
