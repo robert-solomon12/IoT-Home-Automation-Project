@@ -39,14 +39,15 @@ The Lamp is being controlled using Blynk. Blynk is a fantastic hardware-agnostic
   1. Name: "IoT Smart Home" 
   2. Choose Raspberry Pi 3 as the board and the type of network connection you use with the RPi (either Wifi or Ethernet).
   
-  <img src="IMG/blynk3.png" width="400">
+  <img src="IMG/blynk3.png" width="500">
   
 • After the project is created, You will see your empty app. We will add controls to it later. In the mean time, retrieve your project Auth Token in your email (check your junk folder if you can't find it).
 
 • Download/clone this repo 
 
 
-<img src="IMG/Screenshot%20(26).png" width="400">
+<img src="IMG/Screenshot%20(26).png" width="500">
+
 
 • Next you need to install the Blynk Library on your Raspberry Pi and since we're going to use Javascript to control the Pi, you will need to do the following:
 <br> You should only carry out the following installations if you don't have node.js installed on your Raspberry Pi otherwise skip the following installations </br>
@@ -62,7 +63,6 @@ After you've done does steps you should be almost ready to go, just make sure yo
 
 • Run 'smartDevice.js' which will also run the 'pirTest.py' program from the js program using the child processing module.
 • Once connection is established with your smartphone and have your Buttons set up on your Blynk Application then you're good to go.
-
 
 # Running the program and automatic startup
 - I would suggest a reboot after all of the installation process
