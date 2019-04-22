@@ -23,7 +23,7 @@ The Project that I'm going to propose is a Home Automation Based Lamp accompanie
 -	Raspberry Pi 3 Model B
 -	Blynk Application
 
-<b>Please refer to my Project Analysis in the </b>[HAS Project Analysis Folder](https://github.com/EazyRob97/IoT-Home-Automation-Project/blob/master/HAS%20Project%20Analysis/IoT%20Project%20Analysis%20(HOME%20AUTOMATED%20SMART%20LAMP).pdf)<b> to get a clearer context of this Project.</b>.
+<b>Please refer to my Project Analysis in the </b>[HAS Project Analysis Folder](https://github.com/EazyRob97/IoT-Home-Automation-Project/blob/master/HAS%20Project%20Analysis/IoT%20Project%20Analysis%20(HOME%20AUTOMATED%20SMART%20LAMP).pdf)<b> to get a clearer context of this Project.</b>
 
 
 # Overview of the Project
@@ -86,7 +86,7 @@ After you've done does steps you should be almost ready to go, just make sure yo
  
   
   
-<br> Should you have any problems, don't hesitate to contact me on my email at</br> [20079462@mail.wit.ie](mailto:20079462@mail.wit.ie)
+<br> Should you have any problems, don't hesitate to contact me on my email at:</br> [20079462@mail.wit.ie](mailto:20079462@mail.wit.ie)
 
 
 # Enjoy!!
