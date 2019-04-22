@@ -7,7 +7,6 @@ The Project that I'm going to propose is a Home Automation Based Lamp accompanie
 
 
 # Components Required:
-
 •	Raspberry Pi 3B board 
 •	SD Card
 •	Raspbian Operating System
@@ -15,17 +14,16 @@ The Project that I'm going to propose is a Home Automation Based Lamp accompanie
 •	1 x Lamp
 •	2 x Resistors 150 to 220 ohms <br>(Optional)</br>
 •	2 x Different Color LEDs <br>(Optional)</br>
-•   Alarm Speaker
+• Alarm Speaker
 •	Wi-Fi
 •	PIR Motion Sensor
 •	Smartphone Device
-•   Breadboard
+• Breadboard <br>(Optional)</br>
 •	Jumper Wires
 •	Raspberry Pi 3 Model B
 •	Blynk Application
 
-<b>Please refer to my Project Analysis in the</b> [HAS Project Analysis Folder](https://github.com/EazyRob97/IoT-Home-Automation-Project/blob/master/HAS%20Project%20Analysis/IoT%20Project%20Analysis%20(HOME%20AUTOMATED%20LAMP).pdf)<b>to get a clearer context of this Project.</b>.
-
+<b>Please refer to my Project Analysis in the </b>[HAS Project Analysis Folder](https://github.com/EazyRob97/IoT-Home-Automation-Project/blob/master/HAS%20Project%20Analysis/IoT%20Project%20Analysis%20(HOME%20AUTOMATED%20LAMP).pdf)<b> to get a clearer context of this Project.</b>.
 
 
 # Overview of the Project
@@ -33,17 +31,17 @@ The Lamp is being controlled using Blynk. Blynk is a fantastic hardware-agnostic
 
 
 # Instructions to set up your Pi with all of the scripts it needs:
-The hard parts are done so if you want to just get running with the application, read the following instructions ahead:
+<br>The hard parts are done so if you want to just get running with the application, read the following instructions ahead:</br>
 
 • The first thing you want to do is to download Blynk here from the [Apple Marketplace](https://itunes.apple.com/us/app/blynk-iot-for-arduino-esp32/id808760481?mt=8) if you're using an Apple Device or [Play Store](https://play.google.com/store/apps/details?id=cc.blynk&hl=en) if you're using an Android Device.
 • Create your Account with Blynk when you click into the Application
 • Create a New Project with the following details:
-  1. Name: Blynk-lab1
+  1. Name: "IoT Smart Home" 
   2. Choose Raspberry Pi 3 as the board and the type of network connection you use with the RPi (either Wifi or Ethernet).
-  [](https://github.com/EazyRob97/IoT-Home-Automation-Project/blob/master/IMG/blynk3.png)
+  ![](IMG/Blynk%20Intro%20Diagram.png)
 • After the project is created, You will see your empty app. We will add controls to it later. In the mean time, retrieve your project Auth Token in your email (check your junk folder if you can't find it).
-• Download/clone this repo [](https://github.com/EazyRob97/IoT-Home-Automation-Project/blob/master/IMG/Screenshot (26).png)
-
+• Download/clone this repo 
+![](IMG/Screenshot%20(26).png)
 • Next you need to install the Blynk Library on your Raspberry Pi and since we're going to use Javascript to control the Pi, you will need to do the following:
 <br> You should only carry out the following installations if you don't have node.js installed on your Raspberry Pi otherwise skip the following installations </br>
   • Check if Node is already on the pi. If so,you are adviced to remove it and reinstall as follows: 
@@ -54,6 +52,7 @@ The hard parts are done so if you want to just get running with the application,
     <b>1. curl -sL "https://deb.nodesource.com/setup_6.x" | sudo -E bash - </b>
     <b>2. sudo apt-get install build-essential nodejs -y </b>
     <b>3. sudo apt-get install npm</b>
+
 
 After you've done does steps you should be almost ready to go, just make sure you edit the 'smartDevice.js' script and change the part with 'INSERT-YOUR-TOKEN-HERE' and replace it with your own token that you will get from your email when you already have Blynk installed and setup on your phone.
 
