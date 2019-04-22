@@ -27,7 +27,7 @@ The Project that I'm going to propose is a Home Automation Based Lamp accompanie
 
 
 # Overview of the Project
-The Lamp is being controlled using Blynk. Blynk is a fantastic hardware-agnostic IoT platform with customizable mobile apps, private cloud, rules engine, and device management analytics dashboard Blynk was designed for the Internet of Things. It can control hardware remotely, it can display sensor data and it can store and visualise data. I'm using Blynk to specifically control my Relay & Motion Sensor. The Motion Sensor code is written in Python and is launched through my node.js using a module called [child process](https://nodejs.org/api/child_process.html#child_process_child_process). The child process module allows to me to create child processes in Node.js. Those processes can easily communicate with each other using a built-in messaging system. There are four different ways to create a child process in Node: spawn(), fork(), exec(), and execFile(). You can also watch and learn about the child process module in this [video](https://www.youtube.com/watch?v=3vYfhrIQ2yM)
+The Lamp is being controlled using Blynk. Blynk is a fantastic hardware-agnostic IoT platform with customizable mobile apps, private cloud, rules engine, and device management analytics dashboard Blynk was designed for the Internet of Things. It can control hardware remotely, it can display sensor data and it can store and visualise data. I'm using Blynk to specifically control my Relay & Motion Sensor. The Motion Sensor code is written in Python and is launched through my node.js using a module called [child process](https://nodejs.org/api/child_process.html#child_process_child_process). The child process module allows to me to create child processes in Node.js. Those processes can easily communicate with each other using a built-in messaging system. There are four different ways to create a child process in Node: spawn(), fork(), exec(), and execFile(). You can also watch and learn about the child process module in this [video](https://www.youtube.com/watch?v=3vYfhrIQ2yM).
 
 
 # Instructions to set up your Pi with all of the scripts it needs:
@@ -36,7 +36,10 @@ The Lamp is being controlled using Blynk. Blynk is a fantastic hardware-agnostic
 • The first thing you want to do is to download Blynk here from the [Apple Marketplace](https://itunes.apple.com/us/app/blynk-iot-for-arduino-esp32/id808760481?mt=8) if you're using an Apple Device or [Play Store](https://play.google.com/store/apps/details?id=cc.blynk&hl=en) if you're using an Android Device.
 • Create your Account with Blynk when you click into the Application
 • Create a New Project with the following details:
+
+
   1. Name: "IoT Smart Home" 
+  
   2. Choose Raspberry Pi 3 as the board and the type of network connection you use with the RPi (either Wifi or Ethernet).
   
   <img src="IMG/blynk3.png" width="500">
@@ -52,12 +55,19 @@ The Lamp is being controlled using Blynk. Blynk is a fantastic hardware-agnostic
 • Next you need to install the Blynk Library on your Raspberry Pi and since we're going to use Javascript to control the Pi, you will need to do the following:
 <br> You should only carry out the following installations if you don't have node.js installed on your Raspberry Pi otherwise skip the following installations </br>
   • Check if Node is already on the pi. If so,you are adviced to remove it and reinstall as follows: 
-    <b>1. sudo apt-get purge node nodejs node.js -y </b>
-    <b>2. sudo apt-get autoremove </b>
+    
+    <b> sudo apt-get purge node nodejs node.js -y </b>
+    
+    <b> sudo apt-get autoremove </b>
+    
+    
   • Update the package repository and install node:  
-    <b>1. curl -sL "https://deb.nodesource.com/setup_6.x" | sudo -E bash - </b>
-    <b>2. sudo apt-get install build-essential nodejs -y </b>
-    <b>3. sudo apt-get install npm</b>
+    
+    <b> curl -sL "https://deb.nodesource.com/setup_6.x" | sudo -E bash - </b>
+    
+    <b> sudo apt-get install build-essential nodejs -y </b>
+    
+    <b> sudo apt-get install npm</b>
     
 After you've done does steps you should be almost ready to go, just make sure you edit the 'smartDevice.js' script and change the part with 'INSERT-YOUR-TOKEN-HERE' and replace it with your own token that you will get from your email when you already have Blynk installed and setup on your phone.
 
@@ -73,3 +83,6 @@ After you've done does steps you should be almost ready to go, just make sure yo
   
   
 <br>Should you have any problems, don't hesitate to contact me on my email at </br> [20079462@mail.wit.ie](mailto:20079462@mail.wit.ie)
+
+
+# Enjoy!!
