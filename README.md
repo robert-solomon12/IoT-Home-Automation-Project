@@ -1,27 +1,27 @@
 # IoT Home Automation Project
 
 # Proposal
-Until now there have been many videos roaming around about IoT Smart-Home Devices controlling Appliances around the house and it caught my attention. Therefore I wanted to design my own simulation of a Smart IoT Device in use for Home Automation. There have also been several tutorial videos regarding controlling appliances over internet. And for that Blynk has been a preference as it was easy to use and user friendly also according to some research. But all those things were based on internet. That means we can control appliances only when we have proper internet connection otherwise that wont work at all.
+Until now there have been many videos roaming around about IoT Smart-Home Devices controlling Appliances around the house and it caught my attention. Therefore I wanted to design my own simulation of a Smart IoT Device in use for Home Automation. There have also been several tutorial videos regarding controlling appliances over internet. And for that Blynk has been my preference as it was easy to use and user friendly also according to some research. But all those things were based on internet. That means we can control appliances only when we have proper internet connection otherwise that wont work at all.
 
 The Project that I'm going to propose is a Home Automation Based Lamp accompanied with a Relay over a Server using a Raspberry Pi & Blynk App. I’m also going to be using a PIR Sensor. Code for this project will be written in Javascript and Python and will be uploaded on my GitHub in due course.
 
 
 # Components Required:
-•	Raspberry Pi 3B board 
-•	SD Card
-•	Raspbian Operating System
-•	1 x 5V Relays
-•	1 x Lamp
-•	2 x Resistors 150 to 220 ohms <br>(Optional)</br>
-•	2 x Different Color LEDs <br>(Optional)</br>
-• Alarm Speaker
-•	Wi-Fi
-•	PIR Motion Sensor
-•	Smartphone Device
-• Breadboard <br>(Optional)</br>
-•	Jumper Wires
-•	Raspberry Pi 3 Model B
-•	Blynk Application
+- Raspberry Pi 3B board 
+-	SD Card
+-	Raspbian Operating System
+-	1 x 5V Relays
+-	1 x Lamp
+-	2 x Resistors 150 to 220 ohms <br>(Optional)</br>
+-	2 x Different Color LEDs <br>(Optional)</br>
+- Alarm Speaker
+-	Wi-Fi
+-	PIR Motion Sensor
+-	Smartphone Device
+- Breadboard <br>(Optional)</br>
+-	Jumper Wires
+-	Raspberry Pi 3 Model B
+-	Blynk Application
 
 <b>Please refer to my Project Analysis in the </b>[HAS Project Analysis Folder](https://github.com/EazyRob97/IoT-Home-Automation-Project/blob/master/HAS%20Project%20Analysis/IoT%20Project%20Analysis%20(HOME%20AUTOMATED%20LAMP).pdf)<b> to get a clearer context of this Project.</b>.
 
@@ -71,8 +71,8 @@ The Lamp is being controlled using Blynk. Blynk is a fantastic hardware-agnostic
     
 After you've done does steps you should be almost ready to go, just make sure you edit the 'smartDevice.js' script and change the part with 'INSERT-YOUR-TOKEN-HERE' and replace it with your own token that you will get from your email when you already have Blynk installed and setup on your phone.
 
-• Run 'smartDevice.js' which will also run the 'pirTest.py' program from the js program using the child processing module.
-• Once connection is established with your smartphone and have your Buttons set up on your Blynk Application then you're good to go.
+- Run 'smartDevice.js' which will also run the 'pirTest.py' program from the js program using the child processing module.
+- Once connection is established with your smartphone and have your Buttons set up on your Blynk Application then you're good to go.
 
 # Running the program and automatic startup
 - I would suggest a reboot after all of the installation process
