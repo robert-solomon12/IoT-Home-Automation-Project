@@ -82,7 +82,7 @@ After you've done does steps you should be almost ready to go, just make sure yo
  
   
   
-<br>Should you have any problems, don't hesitate to contact me on my email at </br> [20079462@mail.wit.ie](mailto:20079462@mail.wit.ie)
+<br> Should you have any problems, don't hesitate to contact me on my email at</br> [20079462@mail.wit.ie](mailto:20079462@mail.wit.ie)
 
 
 # Enjoy!!
