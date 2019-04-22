@@ -44,6 +44,7 @@ The Lamp is being controlled using Blynk. Blynk is a fantastic hardware-agnostic
 • After the project is created, You will see your empty app. We will add controls to it later. In the mean time, retrieve your project Auth Token in your email (check your junk folder if you can't find it).
 • Download/clone this repo 
 <img src="IMG/Screenshot%20(26).png" width="400">
+
 • Next you need to install the Blynk Library on your Raspberry Pi and since we're going to use Javascript to control the Pi, you will need to do the following:
 <br> You should only carry out the following installations if you don't have node.js installed on your Raspberry Pi otherwise skip the following installations </br>
   • Check if Node is already on the pi. If so,you are adviced to remove it and reinstall as follows: 
