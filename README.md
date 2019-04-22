@@ -27,7 +27,11 @@ The Project that I'm going to propose is a Home Automation Based Lamp accompanie
 
 
 # Overview of the Project
-The Lamp is being controlled using Blynk. Blynk is a fantastic hardware-agnostic IoT platform with customizable mobile apps, private cloud, rules engine, and device management analytics dashboard Blynk was designed for the Internet of Things. It can control hardware remotely, it can display sensor data and it can store and visualise data. I'm using Blynk to specifically control my Relay & Motion Sensor. The Motion Sensor code is written in Python and is launched through my node.js using a module called [child process](https://nodejs.org/api/child_process.html#child_process_child_process). The child process module allows to me to create child processes in Node.js. Those processes can easily communicate with each other using a built-in messaging system. There are four different ways to create a child process in Node: spawn(), fork(), exec(), and execFile(). You can also watch and learn about the child process module in this [video](https://www.youtube.com/watch?v=3vYfhrIQ2yM).
+The Lamp is being controlled using Blynk. Blynk is a fantastic hardware-agnostic IoT platform with customizable mobile apps, private cloud, rules engine, and device management analytics dashboard Blynk was designed for the Internet of Things. It can control hardware remotely, it can display sensor data and it can store and visualise data. I'm using Blynk to specifically control my Relay & Motion Sensor.
+
+<img src="IMG/Blynk%20Intro%20Diagram.png" width="500">
+
+The Motion Sensor code is written in Python and is launched through my node.js using a module called [child process](https://nodejs.org/api/child_process.html#child_process_child_process). The child process module allows to me to create child processes in Node.js. Those processes can easily communicate with each other using a built-in messaging system. There are four different ways to create a child process in Node: spawn(), fork(), exec(), and execFile(). You can also watch and learn about the child process module in this [video](https://www.youtube.com/watch?v=3vYfhrIQ2yM).
 
 
 # Instructions to set up your Pi with all of the scripts it needs:
