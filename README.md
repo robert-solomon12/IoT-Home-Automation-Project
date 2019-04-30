@@ -14,7 +14,7 @@ The Project that I'm going to propose is a Home Automation Based Lamp accompanie
 -	1 x Lamp
 -	2 x Resistors 150 to 220 ohms <br>(Optional)</br>
 -	2 x Different Color LEDs <br>(Optional)</br>
-- Alarm Speaker
+- Alarm Speaker <br>(Optional)</br>
 -	Wi-Fi
 -	PIR Motion Sensor
 -	Smartphone Device
