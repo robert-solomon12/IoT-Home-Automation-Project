@@ -42,7 +42,7 @@ The Motion Sensor code is written in Python and is launched through my node.js u
 • Create a New Project with the following details:
 
 
-  1. Name: "IoT Smart Home" 
+  1. Name: "IoT Smart Smart Lamp"or "blynk-lab1" or give it any name that you prefer.
   
   2. Choose Raspberry Pi 3 as the board and the type of network connection you use with the RPi (either Wifi or Ethernet).
   
