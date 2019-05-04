@@ -48,7 +48,7 @@ The Motion Sensor code is written in Python and is launched through my node.js u
   
   <img src="IMG/blynk3.png" width="500">
   
-• After the project is created, You will see your empty app. You can also learn how to create buttons which you will need for your blynk app in your smartphone in order to communicate with the Raspberry Pi. Here's a [video](https://www.youtube.com/watch?v=Cb3VK0Yl7zY) which will help you understand virtual pins and a practical use of instructions on how to create buttons. In the mean time, retrieve your project Auth Token in your email (check your junk folder if you can't find it).
+• After the project is created, You will see your empty app. You can also learn how to create buttons which you will need for your blynk app in your smartphone in order to communicate with the Raspberry Pi. Here's a [video](https://www.youtube.com/watch?v=Cb3VK0Yl7zY) which will help you understand virtual pins and a practical use of instructions on how to create buttons on your Blynk App. In the mean time, retrieve your project Auth Token in your email (check your junk folder if you can't find it).
 
 • Download/clone this repo 
 
