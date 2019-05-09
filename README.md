@@ -1,4 +1,4 @@
-# IoT Home Automation Project
+# IoT Home Automation Project 2019
 
 # Proposal
 Until now there have been many videos roaming around about IoT Smart-Home Devices controlling Appliances around the house and it caught my attention. Therefore I wanted to design my own simulation of a Smart IoT Device in use for Home Automation. There have also been several tutorial videos regarding controlling appliances over internet. And for that Blynk has been my preference as it was easy to use and user friendly also according to some research. But all those things were based on internet. That means we can control appliances only when we have proper internet connection otherwise that wont work at all.
